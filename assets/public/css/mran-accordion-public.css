@@ -1,0 +1,383 @@
+/*====================================================
+-------------- Accordion Reset ----------------------
+=====================================================*/
+.mran-accordion .mran-accordion-list {
+  padding: 0;
+  margin: 0 0 30px;
+  list-style: none !important;
+  overflow: hidden; }
+
+.mran-accordion .mran-accordion-item-wrap {
+  line-height: 0; }
+  .mran-accordion .mran-accordion-item-wrap > *, .mran-accordion .mran-accordion-item-wrap .mran-accordion-title, .mran-accordion .mran-accordion-item-wrap .mran-content {
+    line-height: 1.6em; }
+
+.mran-accordion .mran-toggle-icon:before {
+  line-height: 35px; }
+
+.mran-accordion .mran-content-wraper {
+  padding: 10px; }
+
+.mran-accordion .mran-accordion-title {
+  display: block;
+  font-weight: 700;
+  cursor: pointer; }
+
+.mran-accordion .mran-content {
+  display: none;
+  overflow: hidden; }
+
+.mran-accordion.vertical .mran-content.current {
+  display: block; }
+
+.mran-accordion.vertical .mran-accordion-title {
+  padding: 10px 40px 10px 10px; }
+
+.mran-accordion.horizontal {
+  overflow: hidden;
+  height: auto; }
+  .mran-accordion.horizontal .mran-toggle-icon {
+    left: 0;
+    width: 100%;
+    height: 30px;
+    border-left: none;
+    border-bottom: 1px solid #dedede; }
+    .mran-accordion.horizontal .mran-toggle-icon:before {
+      padding: 0 4px;
+      line-height: 30px; }
+  .mran-accordion.horizontal ul li {
+    float: left;
+    margin: 0 1px 1px 0;
+    padding: 0px; }
+  .mran-accordion.horizontal .mran-accordion-title {
+    height: auto;
+    padding: 0;
+    float: left;
+    width: initial;
+    overflow: hidden; }
+    .mran-accordion.horizontal .mran-accordion-title span {
+      width: 35px;
+      display: block;
+      padding: 10px 5px;
+      writing-mode: tb-rl;
+      -webkit-writing-mode: tb-rl;
+      -moz-writing-mode: tb-rl;
+      -ms-writing-mode: tb-rl;
+      -o-writing-mode: tb-rl;
+      -ms-writing-mode: tb-rl; }
+  .mran-accordion.horizontal .mran-content {
+    display: none;
+    width: 0px;
+    border-left: 0; }
+    .mran-accordion.horizontal .mran-content.current {
+      display: inline-block;
+      /* Makes its work in FF */ }
+  .mran-accordion.horizontal .mran-accordion-title,
+  .mran-accordion.horizontal .mran-content {
+    transition: height 1s ease-out; }
+
+.mran-accordion-list {
+  padding: 0;
+  margin: 0; }
+  .mran-accordion-list:after {
+    content: "";
+    display: block;
+    clear: both; }
+
+.mran-toggle-icon {
+  height: 100%;
+  width: 35px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: inherit;
+  text-align: center;
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+  max-height: 40px;
+  border-left: 1px solid #dedede; }
+
+body .mran-toggle-icon {
+  font-size: 16px; }
+
+/*====================================================
+------------- Accordion Theme Default ----------------
+=====================================================*/
+.mran-theme-default .mran-accordion-item-wrap {
+  padding: 0;
+  position: relative;
+  margin: 0 0 1px;
+  overflow: hidden;
+  border: 1px solid #e1e1e1; }
+
+.mran-theme-default .mran-post-link, .mran-theme-default .mran-accordion-title {
+  position: relative;
+  display: block;
+  padding: 10px 0 10px 1em;
+  margin: 0;
+  line-height: 1.4em;
+  cursor: pointer; }
+
+.mran-theme-default .mran-content {
+  border: 1px solid #e1e1e1; }
+
+.mran-theme-default .vertical .mran-accordion-item-wrap {
+  width: 100%; }
+
+.mran-theme-default .horizontal .mran-accordion-item-wrap {
+  border: none; }
+
+.mran-theme-default .horizontal .mran-accordion-title {
+  border: 1px solid #e1e1e1; }
+
+.mran-theme-default .horizontal .mran-content {
+  padding: 10px; }
+
+.mran-theme-default .horizontal .mran-post-link, .mran-theme-default .horizontal .mran-accordion-title {
+  padding-top: 30px; }
+
+/*====================================================
+-------------- Accordion Default ----------------------
+=====================================================*/
+.mran-default .mran-accordion-list {
+  border-bottom: 1px solid #dedede; }
+
+.mran-default .mran-accordion-item-wrap {
+  padding: 0;
+  border: none;
+  position: relative;
+  margin: 0 0 1px;
+  overflow: hidden; }
+
+.mran-default .mran-accordion-title {
+  position: relative;
+  display: block;
+  color: #fff;
+  padding: 10px 0 10px 1em;
+  margin: 0;
+  background: #006799;
+  font-weight: 600;
+  line-height: 1.4em;
+  cursor: pointer;
+  box-shadow: none; }
+  .mran-default .mran-accordion-title:hover, .mran-default .mran-accordion-title.current {
+    box-shadow: none;
+    background: #00a0d2;
+    color: #fff; }
+
+.mran-default .mran-content {
+  color: #fff;
+  background: #06c4ff; }
+
+.mran-default .horizontal .mran-accordion-title, .mran-default .horizontal .mran-post-link {
+  padding-top: 30px; }
+
+/*====================================================
+-------------- Accordion Template 1 ----------------------
+=====================================================*/
+.mran-template-1 .mran-toggle-icon {
+  color: #fff; }
+
+.mran-template-1 .mran-accordion-item-wrap {
+  padding: 0;
+  border: none;
+  position: relative;
+  margin: 0 0 1px;
+  color: white;
+  overflow: hidden; }
+
+.mran-template-1 .mran-post-link, .mran-template-1 .mran-accordion-title {
+  position: relative;
+  display: block;
+  color: #fff;
+  padding: 10px 0 10px 1em;
+  margin: 0;
+  background: #16a085;
+  font-weight: 600;
+  line-height: 1.4em;
+  cursor: pointer; }
+  .mran-template-1 .mran-post-link.current, .mran-template-1 .mran-post-link:hover, .mran-template-1 .mran-accordion-title.current, .mran-template-1 .mran-accordion-title:hover {
+    background: #09a06c; }
+
+.mran-template-1 .mran-content {
+  background: #1abc9c; }
+
+.mran-template-1 .vertical .mran-accordion-item-wrap {
+  width: 100%; }
+
+.mran-template-1 .horizontal .mran-accordion-title, .mran-template-1 .horizontal .mran-post-link {
+  padding-top: 30px; }
+
+/*====================================================
+-------------- Accordion Menu ----------------------
+=====================================================*/
+.mran_accordion_nav_menu .menu-item {
+  margin: 0;
+  padding: 0px;
+  position: relative;
+  border-top: 1px solid #dedede; }
+  .mran_accordion_nav_menu .menu-item a {
+    margin: 0;
+    display: block;
+    line-height: 1.4em;
+    cursor: pointer;
+    box-shadow: none;
+    padding: 10px 0 10px 15px; }
+    .mran_accordion_nav_menu .menu-item a:hover {
+      text-decoration: none;
+      box-shadow: none; }
+  .mran_accordion_nav_menu .menu-item > ul, .mran_accordion_nav_menu .menu-item ul {
+    margin: 0;
+    list-style: none;
+    padding-left: 0 !important; }
+  .mran_accordion_nav_menu .menu-item > a {
+    padding-left: 15px; }
+  .mran_accordion_nav_menu .menu-item .menu-item > a {
+    padding-left: 30px; }
+  .mran_accordion_nav_menu .menu-item .menu-item .menu-item > a {
+    padding-left: 45px; }
+  .mran_accordion_nav_menu .menu-item .menu-item .menu-item .menu-item > a {
+    padding-left: 60px; }
+  .mran_accordion_nav_menu .menu-item .menu-item .menu-item .menu-item .menu-item > a {
+    padding-left: 75px; }
+
+.mran_accordion_nav_menu .menu-item-has-children {
+  position: relative; }
+  .mran_accordion_nav_menu .menu-item-has-children > ul {
+    display: none; }
+    .mran_accordion_nav_menu .menu-item-has-children > ul > li > a {
+      padding-left: 10px; }
+  .mran_accordion_nav_menu .menu-item-has-children > a {
+    padding-right: 35px; }
+
+.mran_accordion_nav_menu .mran-default .mran-toggle-icon {
+  color: #fff;
+  border-left: 1px solid #fff; }
+
+.mran_accordion_nav_menu .mran-default .menu-item {
+  border-top: 1px solid #fff; }
+  .mran_accordion_nav_menu .mran-default .menu-item a {
+    color: #fff;
+    background: #006799; }
+    .mran_accordion_nav_menu .mran-default .menu-item a:hover {
+      color: #fff;
+      background: #00a0d2; }
+
+.mran_accordion_nav_menu .mran-default .current-menu-item > a {
+  color: #fff;
+  background: #00a0d2; }
+
+.mran_accordion_nav_menu .mran-template-1 .mran-toggle-icon {
+  color: #fff;
+  border-left: 1px solid #fff; }
+
+.mran_accordion_nav_menu .mran-template-1 .menu-item {
+  border-top: 1px solid #fff; }
+  .mran_accordion_nav_menu .mran-template-1 .menu-item a {
+    color: #fff;
+    background: #16a085; }
+    .mran_accordion_nav_menu .mran-template-1 .menu-item a:hover {
+      color: #fff;
+      background: #09a06c; }
+
+.mran_accordion_nav_menu .mran-template-1 .current-menu-item > a {
+  color: #fff;
+  background: #09a06c; }
+
+.mran_accordion_nav_menu .mran-theme-default .mran-accordion-list {
+  border-bottom: 1px solid #dedede; }
+
+/*====================================================
+------------- Tab Reset ----------------
+=====================================================*/
+.mran-tab-template .mran-tab {
+  overflow: hidden;
+  margin-bottom: 30px; }
+
+.mran-tab-template .mran-tab-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background: #f2f2f2; }
+  .mran-tab-template .mran-tab-list:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both; }
+
+.mran-tab-template .mran-tab-item-wrap {
+  margin: 0 3px 3px 0; }
+
+.mran-tab-template .mran-tab-content {
+  display: none;
+  padding: 10px;
+  border: 1px solid #e1e1e1; }
+  .mran-tab-template .mran-tab-content.current {
+    display: block; }
+
+.mran-tab-template .mran-tab-title {
+  margin: 0;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  line-height: 1.4em;
+  border: 1px solid #e1e1e1; }
+  .mran-tab-template .mran-tab-title .mran-tab-icon {
+    padding: 10px;
+    margin-right: -15px; }
+  .mran-tab-template .mran-tab-title .mran-post-link {
+    color: inherit;
+    padding: 10px;
+    display: inline-block; }
+  .mran-tab-template .mran-tab-title:after {
+    display: none; }
+  .mran-tab-template .mran-tab-title.current, .mran-tab-template .mran-tab-title:hover {
+    background: #e1e1e1; }
+
+.mran-tab-template .horizontal:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.mran-tab-template .horizontal .mran-tab-list {
+  width: 40%;
+  float: left; }
+
+.mran-tab-template .horizontal .mran-tab-content-wraper {
+  width: 60%;
+  float: left; }
+
+.mran-tab-template .vertical .mran-tab-title {
+  border-right: 1px solid #f2f2f2; }
+
+.mran-tab-template .vertical .mran-tab-item-wrap {
+  float: left; }
+
+.mran-tab-template .vertical .mran-tab-list {
+  width: 100%; }
+
+/*====================================================
+------------------- Tab Default ----------------------
+=====================================================*/
+.mran-tab-template.mran-tab-default .mran-tab-title {
+  color: #fff;
+  background: #006799; }
+  .mran-tab-template.mran-tab-default .mran-tab-title.current {
+    background: #00a0d2; }
+
+/*====================================================
+------------------- Tab Default ----------------------
+=====================================================*/
+.mran-tab-template.mran-tab-template-1 .mran-tab-title {
+  color: #fff;
+  background: #16a085; }
+  .mran-tab-template.mran-tab-template-1 .mran-tab-title.current, .mran-tab-template.mran-tab-template-1 .mran-tab-title:hover {
+    background: #09a06c; }
+
+.mran-tab-template.mran-tab-template-1 .mran-tab-content {
+  background: #1abc9c;
+  color: #fff; }

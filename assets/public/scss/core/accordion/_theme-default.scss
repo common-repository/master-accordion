@@ -1,0 +1,46 @@
+/*====================================================
+------------- Accordion Theme Default ----------------
+=====================================================*/
+.mran-theme-default{
+    .mran-accordion-item-wrap {
+        padding: 0;
+        position: relative;
+        margin: 0 0 1px;
+        overflow: hidden;
+        border: 1px solid #e1e1e1;
+    }
+
+    .mran-post-link, .mran-accordion-title{
+        position: relative;
+        display: block;
+        padding: 10px 0 10px 1em;
+        margin: 0;
+        line-height: 1.4em;
+        cursor: pointer;
+    }
+
+    .mran-content {
+        border: 1px solid #e1e1e1;
+    }
+
+    .vertical{
+        .mran-accordion-item-wrap {
+            width: 100%;
+        }
+
+    }
+    .horizontal{
+        .mran-accordion-item-wrap {
+            border:none;
+        }
+        .mran-accordion-title{
+            border: 1px solid #e1e1e1;
+        }
+        .mran-content {
+            padding: 10px;
+        }
+        .mran-post-link, .mran-accordion-title{
+            padding-top: 30px;
+        }
+    }
+}

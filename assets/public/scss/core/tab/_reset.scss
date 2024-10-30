@@ -1,0 +1,93 @@
+/*====================================================
+------------- Tab Reset ----------------
+=====================================================*/
+
+.mran-tab-template{
+
+    .mran-tab{
+        overflow:hidden;
+        margin-bottom:30px;
+    }
+
+    .mran-tab-list{
+        padding:0;
+        margin:0;
+        list-style: none;
+        background: #f2f2f2;
+        &:after{
+            content:"";
+            display:block;
+            width:100%;
+            clear:both;
+        }
+    }
+
+    .mran-tab-item-wrap{
+            margin:0 3px 3px 0;
+        }
+
+    .mran-tab-content{
+        display:none;
+        padding:10px;
+        border: 1px solid #e1e1e1;
+        &.current{
+            display:block;
+        }
+    }
+
+    .mran-tab-title{
+        margin:0;
+        color:inherit;
+        cursor:pointer;
+        display: block;
+        position:relative;
+        line-height:1.4em;
+        border: 1px solid #e1e1e1;
+        .mran-tab-icon{
+            padding:10px;
+            margin-right:-15px;
+        }
+        .mran-post-link{
+            color:inherit;
+            padding:10px;
+            display:inline-block;
+        }
+        &:after{
+            display:none;
+        }
+        &.current, &:hover{
+            background: #e1e1e1;
+
+        }
+    }
+
+     .horizontal{
+         &:after{
+            content:"";
+            display: block;
+            clear:both;
+        }
+        .mran-tab-list{
+            width:40%;
+            float:left;
+        }
+        .mran-tab-content-wraper{
+            width:60%;
+            float:left;
+        }
+    }
+
+    .vertical{
+        
+        .mran-tab-title{
+            border-right:1px solid #f2f2f2;
+        }
+        .mran-tab-item-wrap{
+            float:left;
+        }
+        .mran-tab-list{
+            width:100%;
+        }
+    }
+    
+}

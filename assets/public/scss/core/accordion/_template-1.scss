@@ -1,0 +1,47 @@
+/*====================================================
+-------------- Accordion Template 1 ----------------------
+=====================================================*/
+.mran-template-1{
+    .mran-toggle-icon{
+        color:#fff;
+    }
+    .mran-accordion-item-wrap {
+        padding: 0;
+        border: none;
+        position: relative;
+        margin: 0 0 1px;
+        color: rgb(255, 255, 255);
+        overflow: hidden;
+    }
+
+    .mran-post-link, .mran-accordion-title{
+        position: relative;
+        display: block;
+        color: #fff;
+        padding: 10px 0 10px 1em;
+        margin: 0;
+        background: rgb(22, 160, 133);
+        font-weight: 600;
+        line-height: 1.4em;
+        cursor: pointer;
+        &.current, &:hover{
+            background: rgb(9, 160, 108);
+        }
+    }
+
+    .mran-content {
+        background: rgb(26, 188, 156);
+    }
+
+    .vertical{
+        .mran-accordion-item-wrap {
+            width: 100%;
+        }
+    }
+
+    .horizontal{
+        .mran-accordion-title, .mran-post-link{
+            padding-top: 30px;
+        }
+    }
+}

@@ -1,0 +1,103 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.mran-tab-content {
+  display: none; }
+
+.mran-postbox img {
+  max-width: 100%;
+  height: auto; }
+
+.mran-bottom-actions .btn {
+  margin: 3px 1px; }
+
+#poststuff .mran-top-title {
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  background: #0085ba; }
+
+.mran_widget_field {
+  margin: 1em 0;
+  clear: both; }
+
+.mran-bottom-actions {
+  padding: 10px;
+  clear: both;
+  border-top: 1px solid #ddd;
+  background: #f5f5f5; }
+
+.mran_widget_icon_wrap {
+  position: relative; }
+
+.mran_widget_icon_wrap .widefat {
+  padding-right: 40px; }
+
+.mran_widget_icon_wrap .mran_icon {
+  top: -2px;
+  right: 0;
+  width: 35px;
+  height: 30px;
+  color: #fff;
+  display: block;
+  line-height: 30px;
+  text-align: center;
+  position: absolute;
+  background: #006799;
+  border-radius: 3px; }
+
+.wp-picker-container {
+  display: block;
+  padding-top: 5px; }
+
+#poststuff .mran-tab-content h2 {
+  padding: 20px 12px 8px 0;
+  font-size: 1.6em; }
+
+.mran-hidden {
+  display: none; }
+
+.mran-hidden[type="radio"] {
+  display: none; }
+
+.mran-tab-content.mran-content-active {
+  display: block; }
+
+.mran-tab-content {
+  display: none;
+  border: 1px solid #dedede;
+  padding: 0 15px;
+  background: #fdfdfd; }
+
+.widget-content .mran-tab-content {
+  margin: 0 -15px 15px; }
+
+div[id*=_mran_] .widget-title h3 {
+  padding: 15px 15px 15px 25px; }
+  div[id*=_mran_] .widget-title h3:before {
+    top: 0;
+    left: 0;
+    content: "";
+    width: 25px;
+    height: 44px;
+    display: block;
+    position: absolute;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("./../img/themecentury.png"); }
+
+/*icon picker*/
+.popover-title input[type="search"] {
+  width: 100%; }
+
+.iconpicker-popover.popover {
+  width: auto;
+  position: static;
+  border: 1px solid #dedede; }
+/*# sourceMappingURL=master-accordion-admin.css.map */
